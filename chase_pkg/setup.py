@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'chase = chase_pkg.chase:main',
+             'chase_node = chase_pkg.chase_node:ros_main',
         ],
     },
 )
